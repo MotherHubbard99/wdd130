@@ -1,0 +1,26 @@
+body {
+    text-align: center;
+    background-color: rgb(218, 156, 187);
+    padding: 5%;
+    margin:auto 15%;
+    }
+
+footer {
+    text-align: center;
+    }
+h1, p, h2 {
+    color: white
+    }
+
+    html:hover h1{
+        Color:black;
+    }
+
+img {
+    width: 30%;
+    display:block;
+    margin: 0 auto;
+    }
+ol {
+    text-align: left;
+}
