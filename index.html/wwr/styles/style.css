@@ -1,4 +1,4 @@
-.icon {
+.icon, .logo {
     width: 80px;
 }
 #hero-img{
@@ -34,9 +34,16 @@ nav a:hover, .book:hover, .join:hover, footer a:hover{
     background-color: #23297a;
     color: aliceblue
 }
+#content {
+    max-width: 1600px;
+    margin:0 auto;
+}
 .book, .join{
     background-color:#bdc0b9;
     text-decoration:none;
+}
+#mountainsdiv{
+    text-align: left
 }
 .msg{
     background-color: #bdc0b9;
