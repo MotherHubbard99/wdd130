@@ -1,0 +1,56 @@
+.heroimage{
+    min-width: 100%;
+    height: auto;   
+}
+body{
+    text-align: center;
+}
+.maintext {
+    text-align: center;
+    overflow: auto; /*adds a scroll bar if text is too much for space provided*/
+}
+h3{
+    te
+}
+.bottomgrid{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    /*grid-column: 1/4;
+    grid-row: 2/2;*/
+    justify-items: center;
+    grid-gap: 20px;
+    grid-template-areas: 
+    'first second third'
+    'firstb secondb thirdb' ;
+}
+.first{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    grid-area: first;
+}
+.second{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    grid-area: second;
+}
+.third{
+    grid-column: 3/4;
+    grid-row: 1/2;
+    grid-area: third;
+}
+.firstb{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    grid-area: firstb;
+}
+.secondb{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    grid-area: secondb;
+}
+.thirdb{
+    grid-column: 3/4;
+    grid-row: 2/3;
+    grid-area: thirdb;
+}
