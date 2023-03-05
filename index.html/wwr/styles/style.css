@@ -44,12 +44,17 @@ header{
     display:grid;
     grid-template-columns: repeat(10, 1fr);
 }
-.salmon-rivergrid{
-    max-width:1600px;
+.salmonriver-grid{
+    /*display:grid;
+    grid-template-columns: 50% 50%;
+    grid-auto-flow: column;*/
+    padding: 2em 1em;
+    max-width: 1600px;
+    margin: 0 auto;
+    text-align: center;
     display:grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 10px;
-    justify-content: center;
+
 }
 .salmonimg{
     grid-column: 1/2;
@@ -64,23 +69,16 @@ header{
     height: auto;
 }
 .canyon-grid{
-    max-width: 1600 px;
-    display: flex;
-    flex-wrap:wrap;
-    grid-template-columns: 150px auto;
-    justify-content: left;
+    display:grid;
+    grid-template-columns: 50% 50%;
+    grid-auto-flow: column;
+    padding: 1em 1em;
 }
-.canyon{
-    grid-column: 1/2;
-    grid-row: 1/2;
-    /*width: 100%;
-    height: auto;*/
-}
-.canyonimg{
-    grid-column: 2/3;
-    grid-row: 1/2;
-    width: 100%;
-    height: auto;
+.grandcanyon{
+    display:grid;
+    grid-template-columns: 50% 50%;
+    grid-auto-flow: column;
+    padding: 1em 1em;
 }
 main section img{
     box-sizing:border-box;
@@ -167,7 +165,7 @@ nav a:hover, .book:hover, .join:hover, footer a:hover{
 }
 .rapids-card{
     grid-column: 8/10;
-    grid-row:  2/3;h
+    grid-row:  2/3;
 }
 #mountainsdiv{
     text-align: left;
