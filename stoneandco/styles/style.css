@@ -22,10 +22,16 @@ header{
     grid-template-columns: 150px auto;
     background-color: #6B7683;
     opacity: 0.8;
+    font-size: 3vw;
+}
+.hero{
+    font-size:3vw;
 }
 #content {
     max-width: 1600px;
     margin:0 auto;
+    /*background-color: aliceblue;*/
+    
 }
 nav {
     display: flex;
@@ -37,7 +43,7 @@ nav a {
     padding: 35px;
 }
 nav a:hover, .button-box:hover, footer a:hover{
-    color: #A43312;
+    color: darkred;
 }
 #hero{
     display:grid;
@@ -73,36 +79,31 @@ nav a:hover, .button-box:hover, footer a:hover{
 }
 .flex-container{
     display:flex;
-    padding: 2em 1em;
+    justify-content: space-around;
+    flex-direction: row;
     max-width: 1600px;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: baseline;
-    height: auto;
-    /*margin: 0 auto;
-    text-align: center;
-    display:flex;*/
-    grid-template-columns: 100% 100%;
+    align-items: center;
 }
-.taxesstarthere{
-    grid-column: 1/2;
-    grid-row: 1/2;
-    height: auto;
+.box1{
+    width:50%;
+    padding: 5px;
+    font-size: 2vw;
 }
-.hassleimg{
-    grid-column: 2/3;
-    grid-row: 1/2;
-}
-.hassleimg img{
-    grid-column: 2/3;
-    grid-row: 1/2;
+.box2{
+    width:50%;
+    padding:5px;
+} 
+.box2 img{
     border-radius: 20%;
-    max-width:100%;
-    height: auto;
+}
+.responsive{
+    max-width: 100%;
+    height:auto;
+    width:auto;
 }
 
 footer{
-    background-color: #fffacd;
+    background-color: #6B7683;
     padding: 25px 50px;
     margin-top: 200px;
     display:flex;
@@ -112,13 +113,18 @@ footer{
 footer a{
     color:#23297a;
     text-decoration:none;
+    padding: 10px; 
 }
 footer p{
-    font-size:1.2em;
+    font-size:1em;
+    padding:5px, 5px;
+    text-align: center;
 }
 footer p a:hover{
     text-decoration: underline;
+    padding:5px, 5px;
 }
 footer.social img{
     padding-top: 15px;
+    padding:5px, 5px;
 }
