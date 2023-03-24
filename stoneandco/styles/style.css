@@ -96,11 +96,64 @@ nav a:hover, .button-box:hover, footer a:hover{
 .box2 img{
     border-radius: 20%;
 }
+/*flexcontainer on Services page*/
+.flex-container-services{
+    display:flex;
+    justify-content: space-around;
+    flex-direction: row;
+    max-width: 1600px;
+    align-items: center;
+}
+.servicesb{
+    width:100%;
+    padding:5px;
+} 
+.servicesb img{
+    border-radius: 20%;
+    max-width: 50%;
+    max-height: auto;
+}
+.duedates{
+    width:50%;
+    padding: 5px;
+    font-size: 2vw;
+}
 .responsive{
     max-width: 100%;
     height:auto;
     width:auto;
 }
+/*Services page Organizer buttons*/
+.btn-group button {
+    background-color: #6B7683; /* Green background */
+    border: 2px solid #495867; /* Green border */
+    color: white; /* White text */
+    padding: 20px 24px; /* Some padding */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin:4px 2px;
+    cursor: pointer; /* Pointer/hand icon */
+    /*float: left; /* Float the buttons side by side */
+  }
+  .button{
+    border-radius: 8px;
+  }
+  .btn-group button:not(:last-child) {
+    border-right: none; /* Prevent double borders */
+  }
+  
+  /* Clear floats (clearfix hack) */
+  .btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  /* Add a background color on hover */
+  .btn-group button:hover {
+    background-color: #8B0000;
+  }
 
 footer{
     background-color: #6B7683;
