@@ -60,7 +60,7 @@ nav a:hover, .button-box:hover, footer a:hover{
     grid-row: 1/2;
     margin-top: 100px;
     text-align: center;
-    font-size: 2em;
+    font-size: 4vw;
     margin-top: 10px;
 }
 #hero-img{
@@ -73,9 +73,13 @@ nav a:hover, .button-box:hover, footer a:hover{
     color:#495867;
     text-align: center;
 }
+h1, h2, h3, h4 {
+    font-family: "Shantell Sans", Arial, Helvetica; 
+}
 .button-box{
     text-align: center;
     color: #23297a;
+    font-size: large;
 }
 .flex-container{
     display:flex;
@@ -109,13 +113,13 @@ nav a:hover, .button-box:hover, footer a:hover{
     padding:5px;
 } 
 .servicesb img{
-    border-radius: 20%;
-    max-width: 50%;
+    /*border-radius: 20%;*/
+    max-width: 100%;
     max-height: auto;
 }
 .duedates{
-    width:50%;
-    padding: 5px;
+    width:100%;
+    padding: 1px;
     font-size: 2vw;
 }
 .responsive{
@@ -124,7 +128,12 @@ nav a:hover, .button-box:hover, footer a:hover{
     width:auto;
 }
 /*Services page Organizer buttons*/
+.btn-group {
+    /*align the buttons themselves in the middle of the page */
+    text-align: center;
+}
 .btn-group button {
+    font-family: "Shantell Sans", Arial, Helvetica;
     background-color: #6B7683; /* Green background */
     border: 2px solid #495867; /* Green border */
     color: white; /* White text */
@@ -135,10 +144,10 @@ nav a:hover, .button-box:hover, footer a:hover{
     margin:4px 2px;
     cursor: pointer; /* Pointer/hand icon */
     /*float: left; /* Float the buttons side by side */
-  }
-  .button{
-    border-radius: 8px;
-  }
+    border-radius: 20px;
+    /*center all of the buttons*/
+   
+}
   .btn-group button:not(:last-child) {
     border-right: none; /* Prevent double borders */
   }
@@ -153,6 +162,10 @@ nav a:hover, .button-box:hover, footer a:hover{
   /* Add a background color on hover */
   .btn-group button:hover {
     background-color: #8B0000;
+  }
+  .center-vp{
+    text-align: center;
+    font-size: 2vw;
   }
 
 footer{
