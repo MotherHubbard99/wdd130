@@ -1,21 +1,21 @@
 
 
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@1,700&family=Shantell+Sans:ital@1&family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@1,100&family=Shantell+Sans:ital@1&family=Source+Sans+Pro&display=swap');
 .logo {
-    width: 80px;
+    /*width: 80px;*/
+    width: 15vw;
 }
 .logo{
     padding-top: 10px;
+    padding-left: 20px;
 }
 img.logo{
     border-radius: 20%;
 }
 #logo_link{
     padding-top: 5px;
-    padding-top: 5px;
     justify-self: center;
-    align-self: center;
-    
+    align-self: center;   
 }
 header{
     display:grid;
@@ -34,6 +34,7 @@ header{
     
 }
 nav {
+    padding-top: 20px;
     display: flex;
     justify-content: space-around;
 }
@@ -117,8 +118,39 @@ h1, h2, h3, h4 {
     max-width: 100%;
     max-height: auto;
 }
-.duedates{
+.flex-container{
+    display:flex;
+    justify-content: space-around;
+    flex-direction: row;
+    max-width: 1600px;
+    align-items: center;
+}
+.taxaimg{
     width:100%;
+    padding:5px;
+} 
+.taxaimg img{
+    /*border-radius: 20%;*/
+    max-width: 100%;
+    max-height: auto;
+}
+#flex-container2{
+    display:flex;
+    justify-content: space-around;
+    flex-direction: row;
+    max-width: 1600px;
+    align-items: center;
+}
+.order2{
+    width:100%;
+    padding:5px;
+} 
+.order2 img{
+    /*border-radius: 20%;*/
+    max-width: 100%;
+    max-height: auto;
+}
+.duedates{
     padding: 1px;
     font-size: 2vw;
 }
