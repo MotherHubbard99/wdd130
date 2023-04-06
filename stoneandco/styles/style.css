@@ -1,18 +1,14 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&family=Rokkitt:wght@300&family=Shantell+Sans:ital@1&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@1,100&family=Shantell+Sans:ital@1&family=Source+Sans+Pro&display=swap');
+
 .logo {
     /*width: 80px;*/
-    width: 15vw;
-}
-.logo{
+    width: 10vw;
     padding-top: 10px;
     padding-left: 20px;
 }
-img.logo{
-    border-radius: 20%;
-}
-#logo_link{
+.logo_link{
     padding-top: 5px;
     justify-self: center;
     align-self: center;   
@@ -23,25 +19,24 @@ header{
     background-color: #6B7683;
     opacity: 0.8;
     font-size: 3vw;
+    font-family: Noto Sans, 'Lucinda Sans';
 }
 .hero{
     font-size:3vw;
 }
 #content {
     max-width: 1600px;
-    margin:0 auto;
-    /*background-color: aliceblue;*/
-    
+    margin:0 auto;   
 }
 nav {
-    padding-top: 20px;
+    padding-top: 12px;
     display: flex;
     justify-content: space-around;
 }
 nav a {
     text-decoration: none;
     color: #dee0e3;
-    padding: 35px;
+    padding: 25px;
 }
 nav a:hover, .button-box:hover, footer a:hover{
     color: darkred;
@@ -76,6 +71,9 @@ nav a:hover, .button-box:hover, footer a:hover{
 }
 h1, h2, h3, h4 {
     font-family: "Shantell Sans", Arial, Helvetica; 
+}
+p, dl{
+    font-family: "Noto Serif", Arial, sans-serif;
 }
 .button-box{
     text-align: center;
@@ -116,7 +114,6 @@ h1, h2, h3, h4 {
 .servicesb img{
     /*border-radius: 20%;*/
     max-width: 100%;
-    max-height: auto;
 }
 .flex-container{
     display:flex;
@@ -132,7 +129,6 @@ h1, h2, h3, h4 {
 .taxaimg img{
     /*border-radius: 20%;*/
     max-width: 100%;
-    max-height: auto;
 }
 #flex-container2{
     display:flex;
@@ -148,7 +144,6 @@ h1, h2, h3, h4 {
 .order2 img{
     /*border-radius: 20%;*/
     max-width: 100%;
-    max-height: auto;
 }
 .duedates{
     padding: 1px;
@@ -201,12 +196,14 @@ h1, h2, h3, h4 {
   }
 
 footer{
-    background-color: #6B7683;
-    padding: 25px 50px;
-    margin-top: 200px;
+    background-color: #B1B0B1;
+    padding: 5px 5px;
+    margin-top: 25px;
     display:flex;
     justify-content: space-around;
     align-items: center;
+    font-family: Noto Sans, 'Lucida Sans';
+    font-weight: 600;
 }
 footer a{
     color:#23297a;
@@ -221,9 +218,9 @@ footer p{
 }
 footer p a:hover{
     text-decoration: underline;
-    padding:5px, 5px;
+    padding:5px 5px;
 }
 footer.social img{
-    padding-top: 15px;
-    padding:5px, 5px;
+    padding-top: 5px;
+    padding:5px 5px;
 }
