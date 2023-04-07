@@ -38,7 +38,7 @@ nav a {
     color: #dee0e3;
     padding: 25px;
 }
-nav a:hover, .button-box:hover, footer a:hover{
+nav a:hover, .button-box a:hover, footer a:hover{
     color: darkred;
 }
 #hero{
