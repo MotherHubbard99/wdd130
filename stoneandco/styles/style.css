@@ -66,7 +66,7 @@ nav a:hover, .button-box:hover, footer a:hover{
 }
 .home-title{
     font-family: "Shantell Sans", Arial, Helvetica;
-    color:#495867;
+    color:darkred;
     text-align: center;
 }
 h1, h2, h3, h4 {
@@ -204,20 +204,16 @@ footer{
     justify-content: space-around;
     align-items: center;
     font-family: "Noto Sans", 'Lucida Sans';
+    font-size: 1em;
     font-weight: 500;
 }
-footer a{
+footer a p{
     color: #dee0e3;
     text-decoration:none;
     padding: 10px; 
     text-align: left;
 }
-footer p{
-    font-size:1em;
-    padding:5px, 5px;
-    text-align: center;
-}
-footer p a:hover{
+footer a:hover{
     text-decoration: underline;
     padding:5px 5px;
 }
@@ -227,7 +223,21 @@ footer.social img{
 }
 /* Use a media query to add a breakpoint at 800px: */
 @media screen and (max-width: 800px) {
-    .left, .main, .right {
+    nav{
       width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+      grid-template-columns: 1fr;
+      display: grid;
     }
-  }
+    .header {
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+    nav a{
+        padding: 5px;
+    }
+    footer{
+        display:grid;
+        justify-content: left;
+        font-size: 3vw;
+    }
+}
+    
