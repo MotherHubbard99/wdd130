@@ -74,6 +74,7 @@ h1, h2, h3, h4 {
 }
 p, dl{
     font-family: "Noto Serif", Arial, sans-serif;
+    font-size: 3vw;
 }
 .button-box{
     text-align: center;
@@ -114,13 +115,6 @@ p, dl{
 .servicesb img{
     /*border-radius: 20%;*/
     max-width: 100%;
-}
-.flex-container{
-    display:flex;
-    justify-content: space-around;
-    flex-direction: row;
-    max-width: 1600px;
-    align-items: center;
 }
 .taxaimg{
     width:100%;
@@ -239,5 +233,8 @@ footer.social img{
         justify-content: left;
         font-size: 3vw;
     }
+    /*.flex-container, .flex-container-services, #flex-container2{
+        display:grid;
+    }*/
 }
     
